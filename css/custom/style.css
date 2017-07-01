@@ -1,4 +1,4 @@
-h1 div{
+h1 span{
 	width: 35px;
     height: 4px;
     background-color: black;
@@ -56,10 +56,6 @@ h1{
     display: block;
 }
 
-.dropdown:hover .dropbtn {
-    background-color: none;
-}
-
 form {
     border: 3px solid black;
 }
@@ -67,11 +63,11 @@ form {
 input[type=text] ,input[type=password]{
     padding: 12px 20px;
     margin: 8px 0;
-    display: inline-block;
-    border: 1px solid silver;
+    border: 1px solid black;
+    font-style: italic;
 }
 
-#container1 button {
+form button {
     background-color: green;
     color: white;
     padding: 14px 20px;
@@ -83,6 +79,12 @@ input[type=text] ,input[type=password]{
 
 button:hover {
     opacity: 0.8;
+}
+
+form {
+    margin-top: 170px;
+    margin-left: 370px;
+    margin-bottom: 175px;
 }
 
 #container1 {
